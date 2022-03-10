@@ -1,5 +1,6 @@
 import React from 'react'
 import './Blog.css'
+import BlogCards from './BlogCards/BlogCards'
 
 const Blog = () => {
 
@@ -11,13 +12,9 @@ const Blog = () => {
    <>
     <div id='Blog_ContainerBackground'>
      <h3 id='Blog_H3'>BLOG</h3>
-     <div id='BlogCards_Container'>
-    <div id='BlogCards_BigCardsContainer'>
-    </div>
-    <div id='BlogBackground_Container'>
-     </div>
-     </div>
-
+        <div id='BlogBackground_Container'>
+        <BlogCards/>
+       </div>
     </div>
    </>
   )

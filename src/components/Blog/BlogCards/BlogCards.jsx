@@ -9,7 +9,41 @@ const ObjectArray = [
 
   return (
     <>
-    <div id='BlogCards_Container'>
+    <div id='BlogCards_Containers'>
+      <div id='BlogCards_CardsContainer'> 
+     
+      <div>
+     
+           <div id='BlogCards_BigCards1stImage'>
+            <p></p>
+           </div>
+     
+           <div id='BlogCards_BigCards2ndImage'>
+             
+           </div>
+     
+      </div>
+
+         <div id='BlogCards_SmallCardsContainer'>
+           <div id='BlogCards_Cards'>
+             <div id='BlogCards_CardsImg1'>
+                <p></p>
+             </div>
+            </div>
+
+            <div className='BlogCards_CardsMargin'>
+             <div id='BlogCards_CardsImg2'>
+
+             </div>
+            </div>
+
+            <div className='BlogCards_CardsMargin'>
+             <div id='BlogCards_CardsImg3'>
+             
+             </div>
+            </div>
+         </div>
+      </div>
     </div>
     </>
   )

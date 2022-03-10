@@ -12,7 +12,6 @@ const Home = () => {
     <HomeContent/>
     <Trending/>
     <Blog/>
-    <BlogCards/>
     </>
   )
 }

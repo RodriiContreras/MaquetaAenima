@@ -1,0 +1,60 @@
+#BlogCards_Containers{
+ background-color: #EBEBEB;
+ height: 100px;
+ margin-bottom: 10px;
+ width: 100%;
+ position: absolute;
+}
+
+#BlogCards_CardsContainer{
+    display: grid;
+    margin-left: 13%;
+    width: 65.7%;
+    height: auto;
+    grid-template-columns: 830px 420px;
+}
+
+
+
+#BlogCards_BigCards1stImage{
+    background-image: url('../../../assets/img/articulo_big_01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 459px;
+}
+#BlogCards_BigCards2ndImage{
+    background-image: url('../../../assets/img/articulo_big_02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 41px;
+    height: 459px;
+}
+
+#BlogCards_SmallCardsContainer{
+    padding-left: 16px;
+}
+#BlogCards_Cards{
+    height: 322px;
+}
+.BlogCards_CardsMargin{
+    margin-top: 20px;
+    height: 322px;
+}
+#BlogCards_CardsImg1{
+    background-image: url('../../../assets/img/articulo_small_01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+}
+#BlogCards_CardsImg2{
+    background-image: url('../../../assets/img/articulo_small_02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+}
+#BlogCards_CardsImg3{
+    background-image: url('../../../assets/img/articulo_small_03.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+}
