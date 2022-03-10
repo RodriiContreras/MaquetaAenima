@@ -1,0 +1,18 @@
+#Trending_Container{
+    background-color: #EBEBEB;
+    width: 100%;
+    height: 738px;
+}
+
+#Trending_H1{
+    color: rgb(44, 44, 44);
+    padding-left: 12%;
+    padding-top: 100px;
+    margin-top: 0;
+}
+#Trending_CardContainerFlex{
+    background-color: rgb(255, 255, 255);
+    width: 76%;
+    margin-left: 12%;
+    height: 330px;
+}

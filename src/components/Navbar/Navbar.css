@@ -1,0 +1,41 @@
+#Navbar_ContainerFlex{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 3px 6px #00000029;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    margin-bottom: 0;
+}
+#Navbar_ImageLink{
+    position: relative;
+    left: 13%;
+    margin-top: 28px;
+}
+
+#NavbarListContent_Ul{
+    display: flex;
+    list-style: none;
+}
+#NavBarListContent_UlContent{
+    position: relative;
+    left: 60%;
+}
+.NavbarListContent_LiLINK{
+ text-decoration: none;
+ color: rgb(186, 183, 183);
+}
+
+.NavbarListContent_LiLINK:hover{
+    transition: .5s;
+color: rgb(0, 0, 0);
+}
+
+.NavbarListContent_Li{
+    margin-top: 10px;
+    padding-left: 25px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
