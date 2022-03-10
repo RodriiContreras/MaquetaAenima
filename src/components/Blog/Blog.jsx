@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
 import './Blog.css'
 import BlogCards from './BlogCards/BlogCards'
 

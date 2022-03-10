@@ -12,6 +12,7 @@
     width: 65.7%;
     height: auto;
     grid-template-columns: 830px 420px;
+    justify-content: start;
 }
 
 
@@ -107,6 +108,7 @@
 }
 
 #BlogCards_Cards{
+    margin-top: 15px;
     height: 322px;
 }
 .BlogCards_CardsMargin{
