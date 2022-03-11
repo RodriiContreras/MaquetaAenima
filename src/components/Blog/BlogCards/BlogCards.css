@@ -183,13 +183,14 @@
 
 
 }
+
 @media only screen and (min-width: 1000px) and (max-width: 1300px){
     #BlogCards_CardsContainer{
         display: grid;
         margin-left:5%;
         width: 80.7%;
         height: auto;
-        grid-template-columns: 700px 350px;
+        grid-template-columns: 670px 355px;
         justify-content: start;
     }
     #BlogCards_BigCardsDesc{

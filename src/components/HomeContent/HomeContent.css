@@ -12,7 +12,7 @@ position: relative;
 top: 5.8em;
 left: 13%;
 height:100px;
-width: 54%;
+width: 47%;
 border-bottom: 2px solid white; 
 }
 #ImageDescription_PinImg{
@@ -129,6 +129,12 @@ border-bottom: 2px solid white;
     padding-left: 30%;
 }
 
+@media only screen and (min-width: 1000px) and (max-width: 1133px){
+    #ImageDescription_NextAdventureContainer{
+        left:67%;
+    }
+}
+
 @media only screen and (min-width: 1000px) and (max-width: 1300px){
     #ImageDescription_H1{
         text-align: start;
@@ -136,7 +142,7 @@ border-bottom: 2px solid white;
         top: 5.8em;
         left: 7%;
         height:100px;
-        width: 58%;
+        width: 62%;
         border-bottom: 2px solid white; 
         }
         #ImageDescription_PinImg{
@@ -145,7 +151,7 @@ border-bottom: 2px solid white;
         }
         #ImageDescription_H1{
             color: white;
-            font-size: 60PX;
+            font-size: 56PX;
             margin-top: 0;
         }
         #ImageDescription_PContainer{
@@ -275,6 +281,12 @@ border-bottom: 2px solid white;
     #ImageDescription_RedLabelCircle2P{
         font-weight: bolder;
         padding-left: 30%;
+    }
+}
+@media only screen and (max-width: 335px){
+    #ImageDescription_H1Container{
+        position: relative;
+      width: 35%;
     }
 }
 

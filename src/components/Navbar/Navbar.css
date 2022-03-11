@@ -20,7 +20,7 @@
 #Navbar_Opacity{
     position: absolute;
     left: 0;
-    width: 48%;
+    width: 60%;
     display: none;
     z-index: 400;
     background-color: rgba(14, 14, 14, 0.337);
@@ -44,6 +44,7 @@ display: none;
     display: flex;
     list-style: none;
 }
+
 #NavBarListContent_UlContent{
     position: relative;
     left: 60%;
@@ -69,12 +70,18 @@ color: rgb(0, 0, 0);
     #Navbar_ContainerFlex{
         justify-content: space-around;
     }
-
+    #Navbar_ImageLink{
+        position: relative;
+        left: 8%;
+        margin-top: 28px;
+    }
     #NavbarListContent_Ul li{
         display: none;
     }
 
     #NavBarListContent_UlContent{
+        margin: 0;
+        width: 0px;
         display: none;
     }
 
@@ -131,6 +138,7 @@ color: rgb(0, 0, 0);
         background-color: rgb(255, 255, 255);
 
     }
+
 }
 @media only screen and (min-width: 1000px) and (max-width: 1300px){
     #NavBarListContent_UlContent li{

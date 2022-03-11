@@ -99,7 +99,6 @@ padding-top: 5px;
     color: black;
 }
 
-
 @media only screen and (min-width: 1300px) and (max-width: 1450px){
     #TrendingCards_Card{
         margin-left: 15px;
@@ -137,7 +136,7 @@ padding-top: 5px;
         margin-left: 15px;
     }
     #TrendingCards_CardImgContainer{
-        width: 335px;
+        width: 325px;
         background-color: #EBEBEB;
         height: 200px;
         margin: 0;
@@ -146,7 +145,7 @@ padding-top: 5px;
         margin: 0;
         border-radius:1.5px;
         height: 205px;
-       width: 335px;
+       width: 325px;
     }
     .TrendingCards_CardPdescription{
          font-size: 13px;
@@ -157,6 +156,8 @@ padding-top: 5px;
         }
         
 }
+
+
 @media only screen and (max-width: 575px){
     #TrendingCards_Card2{
  display: none;
@@ -179,18 +180,13 @@ padding-top: 5px;
     }
     #TrendingCards_Card{
         margin-left: 0;
-        width: 320px;
+        width: 300px;
     }
     #TrendingCards_CardImg{
-        width: 320px;
+        width: 300px;
     }
     #TrendingCards_CardImgContainer{
-        width: 320px;
-    }
-    #TrendingCards_CardImgContainer{
-        width: 330px;
-        height: 200px;
-        margin: 0;
+        width: 305px;
     }
     
 }
