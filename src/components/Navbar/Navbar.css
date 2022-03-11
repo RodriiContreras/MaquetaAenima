@@ -42,3 +42,20 @@ color: rgb(0, 0, 0);
     font-weight: 600;
 }
 
+@media only screen and (max-width: 575px){
+    #NavbarListContent_Ul{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1300px){
+    #NavBarListContent_UlContent{
+        position: relative;
+        left: 50%;
+    }
+}
+@media only screen and (min-width: 575px) and (max-width: 1000px){
+    #NavBarListContent_UlContent{
+        position: relative;
+        left: 40%;
+    }
+}

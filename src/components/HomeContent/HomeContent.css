@@ -12,7 +12,7 @@ position: relative;
 top: 5.8em;
 left: 13%;
 height:100px;
-width: 38%;
+width: 54%;
 border-bottom: 2px solid white; 
 }
 #ImageDescription_PinImg{
@@ -129,3 +129,237 @@ border-bottom: 2px solid white;
     padding-left: 30%;
 }
 
+@media only screen and (min-width: 1000px) and (max-width: 1300px){
+    #ImageDescription_H1{
+        text-align: start;
+        position: relative;
+        top: 5.8em;
+        left: 7%;
+        height:100px;
+        width: 58%;
+        border-bottom: 2px solid white; 
+        }
+        #ImageDescription_PinImg{
+            width: 30px;
+            margin-right: 30px;
+        }
+        #ImageDescription_H1{
+            color: white;
+            font-size: 60PX;
+            margin-top: 0;
+        }
+        #ImageDescription_PContainer{
+            position: relative;
+            width: 55%;
+            left: 7%;
+            top: 340px;
+        }
+        #ImageDescription_p1{
+            color: white;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+        #ImageDescription_p2{
+            letter-spacing: .5px;
+            width: 650px;
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        #ImageDescription_RedLabelContent{
+            position: relative;
+            top: 500px;
+            display: flex;
+            width: 320px;
+        }
+        #ImageDescription_RedLabel{
+            position: absolute;
+            top: 35px;
+            width: 85.4px;
+            height: 10px;
+            z-index: 500;
+            background-color: #FA6980;
+        }
+        #ImageDescription_RedLabelCircle{
+            position: absolute;
+            left: 70px;
+            width: 80px;
+            z-index: 100;
+            height: 80px;
+            opacity:70%;
+            border-radius: 50%;
+            background-color: #c2bfbf;
+        }
+        #ImageDescription_RedLabelCircle2{
+            left: 85px;
+        }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px){
+#ImageDescription_H1{
+    text-align: start;
+    position: relative;
+    top: 5.3em;
+    left: 13%;
+    height:100px;
+    width: 48%;
+    border-bottom: 2px solid white; 
+    }
+    #ImageDescription_PinImg{
+        width: 30px;
+        margin-right: 30px;
+    }
+    #ImageDescription_H1{
+        color: white;
+        font-size: 55PX;
+        margin-top: 0;
+    }
+    #ImageDescription_PContainer{
+        position: relative;
+        width: 47%;
+        left: 13%;
+        top: 280px;
+    }
+    #ImageDescription_p1{
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    #ImageDescription_p2{
+        letter-spacing: .5px;
+        width: 650px;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+
+    #ImageDescription_RedLabelContent{
+        position: relative;
+        top: 500px;
+        display: flex;
+        width: 360px;
+    }
+    #ImageDescription_RedLabel{
+        position: absolute;
+        top: 35px;
+        width: 175.4px;
+        height: 10px;
+        z-index: 500;
+        background-color: #FA6980;
+    }
+    #ImageDescription_RedLabelCircle{
+        position: absolute;
+        left: 160px;
+        width: 80px;
+        z-index: 100;
+        height: 80px;
+        opacity:70%;
+        border-radius: 50%;
+        background-color: #c2bfbf;
+    }
+    #ImageDescription_RedLabelCircle2{
+        position: absolute;
+        left: 175px;
+        margin-top: 14px;
+        z-index: +600;
+        width: 50px;
+        z-index: 100;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ffffff;
+    }
+    #ImageDescription_RedLabelCircle2P{
+        font-weight: bolder;
+        padding-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #HomeContent_Container{
+        background-image: url('../../assets/img/Viajes_Hero.jpg');
+        background-position: 35% 10% ;
+        height: 600PX;
+    }
+    #ImageDescription_H1Container{
+        padding-top: 130px;
+        margin-bottom: 0;
+    }
+    #ImageDescription_H1{
+        color: white;
+        width: 270PX;
+        height: 40px;
+        font-size: 22PX;
+    }
+    #ImageDescription_p2{
+        display: none;
+         }
+    #ImageDescription_p1{
+        color: white;
+        font-size: 19px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    #ImageDescription_PContainer{
+        position: relative;
+        width: 78%;
+        left: 13%;
+        top: 120px;
+    }
+    #ImageDescription_PinImg{
+        width: 13px;
+        margin-right: 5px;
+    }
+    #ImageDescription_NextAdventureContainer{
+        display: none;
+    }
+
+    #ImageDescription_RedLabelContent{
+        position: relative;
+        top: 250px;
+        display: flex;
+        width: 150px;
+    }
+    #ImageDescription_RedLabel{
+        position: absolute;
+        top: 35px;
+        width: 51.4px;
+        height: 10px;
+        z-index: 500;
+        background-color: #FA6980;
+    }
+    #ImageDescription_RedLabelCircle{
+        position: absolute;
+        top: 16px;
+        left: 41px;
+        width: 45px;
+        z-index: 100;
+        height: 45px;
+        opacity:70%;
+        border-radius: 50%;
+        background-color: #c2bfbf;
+    }
+    #ImageDescription_RedLabelCircle2{
+        position: absolute;
+        left: 51px;
+        margin-top: 26px;
+        z-index: +600;
+        width: 25px;
+        z-index: 100;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        margin-bottom: 0;
+    }
+
+    #ImageDescription_RedLabelCircle2P{
+ margin-top: 0px;
+ padding-top: 6px;
+        font-weight: bolder;
+        font-size: 10px;
+        padding-left: 8px;
+    }
+}

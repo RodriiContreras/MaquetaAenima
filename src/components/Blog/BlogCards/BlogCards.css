@@ -137,3 +137,162 @@
     background-size: cover;
     height: 210px;
 }
+
+
+@media only screen and (min-width: 1300px) and (max-width: 1450px){
+    #BlogCards_CardsContainer{
+        display: grid;
+        margin-left: 13%;
+        width: 60.7%;
+        height: auto;
+        grid-template-columns: 730px 370px;
+        justify-content: start;
+    }
+    #BlogCards_BigCardsDesc{
+        font:17px Montserrat;
+    }
+    #BlogCards_BigCardsCategory2{
+        padding-top: 60px;
+        font-weight: bolder;
+        color: white;
+        padding-left: 60px;
+    }
+    #BlogCards_BigCardsTitle2{
+        padding-left: 60px;
+        font-weight: bolder;
+        font-size: 30px;
+        color: white;
+        padding-top: 200px;
+        margin-bottom: 0;
+    }
+    #BlogCards_BigCardsDesc2{
+        margin-top: 3px;
+        padding-left: 60px;
+        color: white;
+        font:17px Montserrat;
+    }
+    #BlogCards_BigCardsDateTime2{
+        padding-top: 5px;
+        margin-top: 0;
+        padding-right: 2px;
+    }
+    #BlogCards_BigCardsDate2{
+        padding-left: 60px;
+        color: rgb(230, 229, 229);
+    }    
+
+
+}
+@media only screen and (min-width: 1000px) and (max-width: 1300px){
+    #BlogCards_CardsContainer{
+        display: grid;
+        margin-left:5%;
+        width: 80.7%;
+        height: auto;
+        grid-template-columns: 700px 350px;
+        justify-content: start;
+    }
+    #BlogCards_BigCardsDesc{
+        font:17px Montserrat;
+    }
+    #BlogCards_BigCardsCategory2{
+        padding-top: 60px;
+        font-weight: bolder;
+        color: white;
+        padding-left: 60px;
+    }
+    #BlogCards_BigCardsTitle2{
+        padding-left: 60px;
+        font-weight: bolder;
+        font-size: 30px;
+        color: white;
+        padding-top: 200px;
+        margin-bottom: 0;
+    }
+    #BlogCards_BigCardsDesc2{
+        margin-top: 3px;
+        padding-left: 60px;
+        color: white;
+        font:17px Montserrat;
+    }
+    #BlogCards_BigCardsDateTime2{
+        padding-top: 5px;
+        margin-top: 0;
+        padding-right: 2px;
+    }
+    #BlogCards_BigCardsDate2{
+        padding-left: 60px;
+        color: rgb(230, 229, 229);
+    }    
+}
+
+
+
+
+@media only screen and (max-width: 575px){
+#BlogCards_CardsContainer{
+    margin-left: 0;
+}
+    #BlogCards_SmallCardsContainer{
+        display: none;
+    }
+    #BlogCards_CardsContainer{
+        display: grid;
+        width:100%;
+        height: auto;
+        grid-template-columns: 100%;
+        justify-content: start;
+    }
+    #BlogCards_BigCardsDesc{
+display: none;
+    }
+    #BlogCards_BigCardsDesc2{
+        display: none;
+    }
+    #BlogCards_BigCards1stImage{
+        height: 509px;
+        background-position: center;
+    }
+    #BlogCards_BigCards2ndImage{
+        height: 509px;
+        background-position: center;
+    }
+    #BlogCards_BigCardsCategory{
+        padding-left: 30px;
+    }
+    #BlogCards_BigCardsCategory2{
+        padding-left: 30px;
+    }
+
+    #BlogCards_BigCardsTitle{
+        padding-top: 280px;
+        padding-left: 40px;
+        font-size: 23px;
+    }
+    #BlogCards_BigCardsTitle2{
+        padding-top: 280px;
+        font-size: 23px;
+        padding-left: 35px;
+    }
+    #BlogCards_BigCardsDate{
+        padding-left: 35px;
+    }
+    #BlogCards_BigCardsDate2{
+        padding-left: 35px;
+    }
+
+}
+
+@media only screen and (min-width: 575px) and (max-width: 1000px){
+    #BlogCards_SmallCardsContainer{
+        display: none;
+    }
+    #BlogCards_CardsContainer{
+        display: grid;
+        margin-left:6%;
+        width: 88.7%;
+        height: auto;
+        grid-template-columns: auto ;
+        justify-content: start;
+    }
+}

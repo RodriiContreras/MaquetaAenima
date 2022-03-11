@@ -8,7 +8,6 @@ const HomeContent = () => {
     <>
     <div id='HomeContent_Container'> 
         <div id='ImageDescription_Container'>
-    
            <div id='ImageDescription_H1Container'>
                <h1 id='ImageDescription_H1'>
                <img id='ImageDescription_PinImg' src={Pin}/>
