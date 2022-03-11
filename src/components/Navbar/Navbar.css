@@ -11,10 +11,33 @@
     opacity: 1;
     margin-bottom: 0;
 }
+
+#NavbarListContent_ButtonMobile{
+    background-color: white;
+    display: none;
+}
+
+#Navbar_Opacity{
+    position: absolute;
+    left: 0;
+    width: 48%;
+    display: none;
+    z-index: 400;
+    background-color: rgba(14, 14, 14, 0.337);
+    height: 680px;
+}
+
 #Navbar_ImageLink{
     position: relative;
     left: 13%;
     margin-top: 28px;
+}
+
+#NavbarListContent_MenuDespUl{
+display: none;
+}
+#NavbarListContent_MenuDespButtonX{
+    display: none;
 }
 
 #NavbarListContent_Ul{
@@ -43,19 +66,89 @@ color: rgb(0, 0, 0);
 }
 
 @media only screen and (max-width: 575px){
-    #NavbarListContent_Ul{
+    #Navbar_ContainerFlex{
+        justify-content: space-around;
+    }
+
+    #NavbarListContent_Ul li{
         display: none;
+    }
+
+    #NavBarListContent_UlContent{
+        display: none;
+    }
+
+    #NavbarListContent_ButtonContainer{
+        z-index: 404;
+    }
+
+    #NavbarListContent_ButtonMobile{
+        margin-left: 46%;
+        margin-top: 22px;
+        display: block;
+        border: 0;
+    }
+
+    #NavbarListContent_MenuDesp{
+        top: 0;
+        width: 100%;
+        height: 680px;
+        position: fixed;
+        display: none;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #NavbarListContent_MenuDespButtonX{
+        background: none;
+        border: 0;
+        display: block;
+        margin-left: 40%;
+        margin-top: 20px;
+    }
+    .NavbarListContent_MenuDespLiLink{
+       text-decoration: none;
+       font-weight: 600;
+       color: black;
+    }
+
+    #NavbarListContent_MenuDespUl{
+        display: block;
+        width: 100px;
+        margin-top: 5%;
+        text-decoration: none;
+        list-style: none;
+        margin-left: 17px
+    }
+    .NavbarListContent_MenuDespLi{
+        padding-top: 10px;
+    }
+    #NavbarListContent_Icon{
+        width: 25px;
+        height: 25px;
+    }
+    #NavbarListContent_ButtonContainer{
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+
     }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1300px){
-    #NavBarListContent_UlContent{
+    #NavBarListContent_UlContent li{
         position: relative;
         left: 50%;
     }
+    #NavBarListContent_UlContent {
+        position: relative;
+        left: 35%;
+    }
 }
 @media only screen and (min-width: 575px) and (max-width: 1000px){
-    #NavBarListContent_UlContent{
+    #NavBarListContent_UlContent li{
         position: relative;
         left: 40%;
+    }
+    #NavBarListContent_UlContent {
+        position: relative;
+        left: 15%;
     }
 }
