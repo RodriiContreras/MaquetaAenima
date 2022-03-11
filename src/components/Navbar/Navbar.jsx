@@ -3,7 +3,7 @@ import ImageNavbar from '../../assets/logo/logo_01.png'
 import './Navbar.css'
 import {Link} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faAlignJustify} from '@fortawesome/free-solid-svg-icons'
+import {faAlignJustify,faX} from '@fortawesome/free-solid-svg-icons'
 const Navbar = () => {
   
   const buttonMenu = ()=>{
@@ -67,7 +67,7 @@ const Navbar = () => {
           </button>
 
           <div id='NavbarListContent_MenuDesp'>
-             <button onClick={buttonKickMenu} id='NavbarListContent_MenuDespButtonX'>X</button>
+             <button onClick={buttonKickMenu} id='NavbarListContent_MenuDespButtonX'><FontAwesomeIcon icon={faX}/></button>
               <ul id='NavbarListContent_MenuDespUl'>
                 <li className='NavbarListContent_MenuDespLi'><Link className='NavbarListContent_MenuDespLiLink' to='/'>HOME</Link></li>
                 <li className='NavbarListContent_MenuDespLi'><Link className='NavbarListContent_MenuDespLiLink' to='/'>TENDENCIAS</Link></li>
