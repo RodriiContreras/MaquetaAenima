@@ -20,11 +20,11 @@
 #Navbar_Opacity{
     position: absolute;
     left: 0;
+    height: 740px;
     width: 60%;
     display: none;
     z-index: 400;
     background-color: rgba(14, 14, 14, 0.337);
-    height: 680px;
 }
 
 #Navbar_ImageLink{
@@ -100,7 +100,7 @@ color: rgb(0, 0, 0);
     #NavbarListContent_MenuDesp{
         top: 0;
         width: 100%;
-        height: 680px;
+        height: 740px;
         position: fixed;
         display: none;
         background-color: rgb(255, 255, 255);
